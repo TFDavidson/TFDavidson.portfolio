@@ -46,6 +46,17 @@
       height: 150px;
     }
   }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+  }
 }
 
 //Phones
@@ -56,6 +67,15 @@
   }
 
   main#home h2 {
+    font-size: 1rem;
+  }
+
+  main#about h1 {
+    font-size: 3rem;
+    margin-top: 10vh;
+  }
+
+  main#about h2 {
     font-size: 1rem;
   }
 }
